@@ -10,7 +10,7 @@ StartLimitBurst=5
 Restart=on-failure
 RestartSec=5s
 
-ExecStart=/opt/qasset/app
+ExecStart=/usr/local/bin/qasset
 
 [Install]
 WantedBy=multi-user.target
